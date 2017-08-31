@@ -1,0 +1,201 @@
+ .clearfix{
+     clear:both;
+ }
+#mobile-nav{
+    display:none;
+}
+.navbar-header h2:hover{
+    color:green;
+    text-decoration: none;
+    text-transform: none;
+}
+nav{
+    background:transparent;
+    background-color:none;
+}
+nav h2{
+    font-size:18px;
+}
+.nav {
+    margin-right:6%;
+}
+.modal{
+    border-radius:10px;
+    width:40%;
+    height:430px;
+}
+.modal .modal-header h2{
+    margin-left:10%;
+}
+.modal form{
+    margin:0 5% 0 10%;
+    width:80%;
+}
+.modal form .input-field{
+    margin-top:10%;
+}
+.modal form label{
+    margin:0 0 0 30%;
+    color:black;
+    font-size:1.2em;
+   font-weight:500;
+
+}
+.modal form label input{
+    margin-left:20%;
+}
+.modal form .btn{
+    margin:0 10% 4% 40%;
+}
+
+body{
+    font-family:'Roboto';
+}
+.slider{
+    margin-top:5%;
+}
+.courses{
+    margin:7% 0 5% 0;
+}
+
+.courses h2{
+    color:black;
+    margin-left:40%;
+    letter-spacing:0.025em;
+}
+#card1{
+    width:80%;
+   
+}
+.timer{
+   margin:7% 0 4% 0;
+   
+}
+#timer{
+    width:30%;
+     margin-left:36.5%;
+}
+.info{
+     margin:7% 0 5% 5%;
+}
+.info h3{
+    margin-left:20%;
+}
+.instructors{
+    margin:7% 0 5% 15%;
+
+}
+#card2{
+    width:80%;
+}
+
+ footer{
+     
+     color:white;
+ }
+ /* Registration */
+
+ #registration{
+     margin:5% 0 10% 10%;
+     font-family:'Roboto';
+ }
+ #registration h2{
+     margin-left:10%;
+ }
+ #registration hr{
+     margin-right:10%;
+ }
+ #registration form{
+     width:70%;
+     margin:5% 0 5% 10%;
+     padding:3%;
+     border-radius:10px;
+ }
+ #registration form label{
+     margin:0 0 0 2%;
+     font-size:1.1em;
+     color:black;
+ }
+ #registration .input-field{
+     margin-top:2%;
+ }
+ #registration form input{
+      margin:3% 0 0 0;
+ }
+ #registration form .btn{
+     margin:5% 0 0 40%;
+ }
+
+@media only screen and (max-width:480px){
+ .nav {
+    margin-right:2%;
+}
+#nav1{
+    display:none;
+}
+#mobile-nav{
+    display:block;
+}
+
+#card1{
+    width:100%;
+   
+}
+.courses h2{
+    color:black;
+    margin-left:20%;
+}
+
+.timer{
+   margin:7% 0 4% 0;
+   
+}
+.timer h2{
+    margin-left:12%;
+}
+
+#timer{
+    width:80%;
+     margin-left:10%;
+    
+}
+.instructors{
+    margin:7% 0 5% 5%;
+
+}
+
+#card2{
+    width:100%;
+}
+
+.modal{
+    border-radius:10px;
+    width:80%;
+    height:380px;
+}
+
+/* Registration */
+
+ #registration form{
+     width:90%;
+     margin:5% 0 5% 0%;
+     padding:5%;
+     border-radius:10px;
+ }
+  #registration form label{
+     margin:0 0 0 10%;
+     font-size:1em;
+     color:black;
+ }
+}
+
+@media only screen and (max-width:768px) and (min-width:481px){
+
+
+
+}
+
+@media only screen and (max-width:1024px) and (min-width:769px){
+ 
+
+}

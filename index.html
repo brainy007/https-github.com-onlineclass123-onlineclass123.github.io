@@ -1,0 +1,394 @@
+  <!DOCTYPE html>
+  <html  >
+    <head>
+      <title>Online Class</title>
+      
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  />
+         <link type="text/css" rel="stylesheet" href="css/style.css" />
+          <link type="text/css" rel="stylesheet" href="css/font-awesome.css"  media="screen,projection"/>
+          <link rel="stylesheet" href="css/animate.css">
+            <link rel="stylesheet" href="css/aos.css">
+            <link rel="icon" type="image/png" href="images/spanner.png"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+     
+    </head>
+
+         <div id='container1'></div>
+    <body class="grey lighten-5">
+
+           <!-- Header and Nav -->
+           <nav class='navbar navbar-custom grey darken-4'>
+            
+               
+                 <div class='navbar-header'>
+                     <a href="#" class='navbar brand'><h2><span class='fa fa-home'></span>Your logo here!!</h2></a>
+                 </div>
+                    <!-- Mobile nav -->
+                    <div id='mobile-nav'>
+<ul id="slide-out" class="side-nav grey lighten-3">
+    <li><div class="user-view">
+      <div class="background">
+        <img src="images/course2.jpg">
+      </div>
+     <img class="circle" src="images/yuna.jpg">logo here
+      <h4 class='grey-text text-darken-4'> Online Class</h4><br>
+    </div></li>
+       <li ><a href="index.html" class='green-text text-accent-4'>Home </a></li>
+    
+    <li><div class="divider"></div></li>
+     <li><a href='#' class='green-text text-accent-4'>About us</a></li>
+                      <li><a href='#' class='green-text text-accent-4'>Contact us</a></li>
+                     <li ><a  class='modal-trigger green-text text-accent-4 ' data-target="modal1">Sign in</a></li>
+                     
+                   
+                     <li><a href="registration.html" class='green-text text-accent-4'>Register</a></li>
+  </ul>
+  <a href="#" data-activates="slide-out" class="button-collapse"><span class="fa fa-bars"></span></a>
+  </div>
+  <!-- end mobile nav -->
+                 <ul class='navbar nav' id="nav1">
+                        <li ><a href="index.html" class='green-text text-accent-4'>Home </a></li>
+                     <li><a href='#' class='green-text text-accent-4'>About us</a></li>
+                      <li><a href='#' class='green-text text-accent-4'>Contact us</a></li>
+                     <li ><a  class='modal-trigger green-text text-accent-4 ' data-target="modal1">Sign in</a></li>
+                     
+                     <li ><a class='green-text text-accent-3'>|</a></li>
+                     <li><a href="registration.html" class='green-text text-accent-4'>Register</a></li>
+
+                  
+
+
+                 </ul>
+                  </nav>
+
+
+
+
+
+
+                   <!-- sign in modal -->
+                       <div class="modal" id="modal1">
+                         <div class="modal-header">
+                   <h2><span class='fa fa-sign-in'></span>  Login</h2> 
+                   </div>
+               <div class="modal-content">
+                   <form class='z-depth-1'>
+                                        
+                              
+                                        <div class='input-field col s10 m10 l0'>
+                                           
+                                            
+                                            <input placeholder='Enter username' type='text'  id='username' class='validate'>
+                                            <label for="user_name"><span class='fa fa-user'></span>Username</label>
+                                            </div>
+                                             <div class='input-field col s10 m10 l10'>
+                                            <input placeholder='Password' type='password'  id='password' class='validate'>
+                                            <label for="password_name"><span class='fa fa-key'></span>Password</label>
+                                            </div>
+                                                    <button type='submit' class='btn waves-effect waves-green green accent-4'><p>SIGN IN</p></button>
+                                        </form>
+               </div>
+               <div class="modal-footer">
+                   <a href="#!" class='btn btn-flat green accent-2 modal-action modal-close '>Close</a>
+                   </div>
+           </div>
+                <div class='container' >
+                     <!-- Main1 left-side -->
+                  
+                     <div class='row'>
+         <div class='col s12 m6 l8 center-align' id='main1'>
+                <div class='slider '>
+                    <ul class='slides z-depth-1'>
+                        <li>
+                            <img src='images/img1.jpg' class='responsive-img' width="500px">
+                            <div class='caption center-align'>
+                                <h2>Image 1</h2>
+                                <p>Please wait</p>
+                            </div>
+                            </li>
+                             <li>
+                            <img src='images/img2.jpg' class='responsive-img' width="500px">
+                            <div class='caption center-align'>
+                                <h2>Image 2</h2>
+                                <p>Please wait</p>
+                            </div>
+                            </li>
+                             <li>
+                            <img src='images/img4.jpg' class='responsive-img' width="500px">
+                            <div class='caption center-align'>
+                                <h2>Image 1</h2>
+                                <p>Please wait</p>
+                            </div>
+                            </li>
+                             <li>
+                            <img src='images/img3.jpg' class='responsive-img' width="500px">
+                            <div class='caption center-align'>
+                                <h2>Image 3</h2>
+                                <p>Please wait</p>
+                            </div>
+                            </li>
+                    </ul>
+                    </div>
+
+            </div>
+           
+           </div>
+        
+              <div class='courses'>
+                   <div class="row">
+             <div class='col s8 m8 l8'>
+             
+              <h2 >Courses Offered</h2><hr class='z-depth-3'>
+              </div>
+              </div>
+              <div class="row">
+        <div class="col s12 m4 l4">
+          <div class="card small aos-item" data-aos="fade-up" id='card1'>
+            <div class="card-image">
+              <img src="images/course1.jpg">
+              <span class="card-title green-text text-accent-3">Course Title</span>
+            </div>
+            <div class="card-content">
+              <p>Hello, You can now  enter your course details here. reccommneded:  not more than 150 characters.</p>
+            </div>
+            <div class="card-action">
+              <a href="#" class='green-text text-accent-3'>Enter link here</a>
+            </div>
+          </div>
+          
+        </div>
+
+          <div class="col s12 m4 l4">
+          <div class="card small aos-item" data-aos="fade-up" id='card1'>
+            <div class="card-image">
+              <img src="images/course2.jpg">
+              <span class="card-title green-text text-accent-3">Course Title</span>
+            </div>
+            <div class="card-content">
+              <p>Hello, You can now  enter your course details here. reccommneded:  not more than 150 characters.</p>
+            </div>
+            <div class="card-action">
+              <a href="#" class='green-text text-accent-4'>Enter link here</a>
+            </div>
+          </div>
+          
+        </div>
+
+          <div class="col s12 m4 l4">
+          <div class="card small aos-item" data-aos="fade-up" id='card1'>
+            <div class="card-image">
+              <img src="images/course3.jpg">
+              <span class="card-title green-text text-accent-1">Course Title</span>
+            </div>
+            <div class="card-content">
+              <p>Hello, You can now  enter your course details here. reccommneded:  not more than 150 characters.</p>
+            </div>
+            <div class="card-action">
+              <a href="#" class='green-text text-accent-4'>Enter link here</a>
+            </div>
+          </div>
+          </div>
+        </div>
+        <hr>
+         <div class='timer'>
+        <div class='row'>
+          <div class='col s4 m4 l4'>
+         
+              <h2 class='grey-text text-darken-3'>Next Class Starts In</h2>
+               <div class="row">
+      <div class="col s4 m4 l4">
+        <div class="card-panel teal center-align" id='timer'>
+          <span class="white-text"><h1><div id='getting-started'></div></h1>
+          <br> <h3><i>Are You Attending?</i></h3>
+          </span>
+        </div>
+      </div>
+    </div>
+            </div>
+          </div>
+          </div>
+          <div class='row'>
+          <div class='col s12 m12 l12'>
+          
+              <div class='info'>
+                <hr >
+                 <div class='col s10 m6 l6'>
+                   
+                <h3 class='grey-text text-darken-2' ><u >Latest News</u></h3>
+                <br><br> <br>
+                <br>
+                </div>
+                 <div class='col s10 m6 l6 '>
+                <h3 class='grey-text text-darken-2' ><u>Upcoming Events</u></h3>
+                <br>
+                <br>
+                 <br>
+                <br>
+                </div>
+              </div>
+            </div>
+          </div>
+ 
+          <div class='row'>
+            <div class='col s12 m12 l12'>
+                <hr>
+              <div class='instructors'>
+                <h3 class='grey-text text-darken-2'>
+                  <u>Meet Our Instructors</u>
+                  </h3>
+                  <br>
+                  <div class="col s6 m3">
+   
+    <div class="card" id='card2'>
+        <div class="card-image ">
+          <img  src="images/avatar1.jpg"  class=" aos-item" data-aos="fade-out" >
+         
+        
+        </div>
+        <div class="card-content">
+          <p>Enter instructor's name and specialization.</p>
+        </div>
+      </div>
+  </div>
+     <div class="col s6 m3">
+   
+    <div class="card" id='card2'>
+        <div class="card-image">
+          <img src="images/avatar2.jpg" class=" aos-item" data-aos="fade-out">
+         
+         
+        </div>
+        <div class="card-content">
+          <p>Enter instructor's name and specialization.</p>
+        </div>
+      </div>
+  </div>
+     <div class="col s6 m3">
+    
+    <div class="card" id='card2'>
+        <div class="card-image">
+          <img src="images/avatar3.jpg"  class=" aos-item" data-aos="fade-out">
+         
+         
+        </div>
+        <div class="card-content">
+          <p>Enter instructor's name and specialization.</p>
+        </div>
+      </div>
+  </div>
+            
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            
+
+           
+            </div>
+           </div>
+                      
+       <footer class="page-footer grey darken-3">
+          <div class="container">
+            <div class="row">
+              <div class="col m4 l4 s4">
+                <h5 class="white-text">About us</h5>
+                <p class="grey-text text-lighten-4">Enter details about the site here</p>
+              </div>
+               <div class="col m4 l4 s4">
+                <h5 class="white-text">Contact us</h5>
+                <p class="grey-text text-lighten-4">Enter contact info!!.</p>
+              </div>
+              <div class="col m4 l4 offset-l2 s4">
+                <h5 class="white-text">Social Media</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!"><span class='fa fa-facebook fa-2x'></span></a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!"><span class='fa fa-twitter fa-2x'></span></a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!"><span class='fa fa-instagram fa-2x'></span></a></li>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright grey darken-4">
+            <div class="container">
+            © 2017 Copyright E-learning
+           
+            </div>
+          </div>
+        </footer>
+                             
+      
+          
+                      
+                 
+                
+                   
+ </body>
+
+
+                          <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="js/jquery.js"></script>
+       <script src="js/jquery.nicescroll.js"></script>
+        <script src="js/jquery.countdown.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="js/angular.min.js"></script>
+      <script type="text/javascript" src="js/wow.min.js"></script>
+       <script type="text/javascript" src="js/controller.js"></script>
+        <script type="text/javascript" src="js/aos.js"></script>
+          
+          
+      <script>
+        
+           $(document).ready(function(){
+        $("html").niceScroll();
+    });
+         
+            
+
+      /* Countdown */
+       $('#getting-started').countdown('2017/09/20', function(event){
+         $(this).html(event.strftime('%w weeks %d days %H:%M:%S'));
+       });
+
+
+       
+
+       AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+
+     var wow= new WOW(
+        {
+          boxClass:     'wow',      // animated element css class (default is wow)
+    animateClass: 'animated', // animation css class (default is animated)
+    offset:       0,          // distance to the element when triggering the animation (default is 0)
+    mobile:       true,       // trigger animations on mobile devices (default is true)
+    live:         true,       // act on asynchronously loaded content (default is true)
+    callback:     function(box) {
+      // the callback is fired every time an animation is started
+      // the argument that is passed in is the DOM node being animated
+    },
+    }
+    );
+
+    wow.init();
+
+
+  // Initialize collapse button
+  $(".button-collapse").sideNav();
+  // Initialize collapsible (uncomment the line below if you use the dropdown variation)
+  //$('.collapsible').collapsible();
+        
+
+    </script>
+  </html>
+
+
