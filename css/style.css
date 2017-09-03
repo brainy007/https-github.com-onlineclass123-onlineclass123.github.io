@@ -153,6 +153,17 @@ body{
     width:100%;
    
 }
+#card1 span{
+    width:60%;
+    font-size:2em;
+    height:70px;
+}
+#card1 .btn{
+    width:50%;
+     font-size:1em;
+ 
+
+}
 .courses h2{
     color:black;
     margin-left:15%;
