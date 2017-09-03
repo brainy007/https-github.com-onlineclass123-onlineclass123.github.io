@@ -53,6 +53,9 @@ body{
 }
 .slider{
     margin-top:5%;
+    width:95%;
+    margin-left:2.5%;
+    margin-right:2.5%;
 }
 .courses{
     margin:7% 0 5% 0;
@@ -65,7 +68,12 @@ body{
 }
 #card1{
     width:80%;
+    box-shadow: 1px 1px 1px #00e676;
    
+}
+#card1:hover{
+    background-color:#f1f8e9;
+    
 }
 .timer{
    margin:7% 0 4% 0;
@@ -90,6 +98,7 @@ body{
 }
 #card2{
     width:80%;
+      box-shadow: 1px 1px 1px #00e676;
 }
 
  footer{
