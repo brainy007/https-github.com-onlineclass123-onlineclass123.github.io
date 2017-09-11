@@ -109,10 +109,13 @@ body{
 
  #registration{
      margin:5% 0 10% 10%;
-     font-family:'Roboto';
+      font-family:'Square721 Cn Bt';
  }
  #registration h2{
-     margin-left:10%;
+     margin-left:5%;
+     padding-left:3%;
+     width:80%;
+      font-family:'Agency FB';
  }
  #registration hr{
      margin-right:10%;
@@ -122,6 +125,7 @@ body{
      margin:5% 0 5% 10%;
      padding:3%;
      border-radius:10px;
+     box-shadow: 1px 1px 1px 1px #005c00;
  }
  #registration form label{
      margin:0 0 0 2%;
@@ -138,6 +142,187 @@ body{
      margin:5% 0 0 40%;
  }
 
+ /* Dashboard */
+.dashboard_page{
+    width:90%;
+     margin-left:5%;
+     margin-bottom:5%;
+
+}
+ .banner{
+     height:350px;
+    
+    
+ }
+ .banner h2{
+     padding-top:2%;
+ }
+ .banner #banner_header h2{
+      font-family:'Agency FB';
+      font-weight:600;
+ }
+ .banner img{
+     width:97.5%;
+     height:200px;
+      margin:3% 2.5% 5% 0%;
+ }
+ #breadcrumb{
+     margin:0 0 0.5% 0;
+     width:97.5%;
+ }
+ #sidebar{
+     margin:0 2.5% 0 0 ;
+    
+     
+ }
+ #sidebar .card-content img{
+     margin:5% 0 10% 20%;
+ }
+ #sidebar .card-content p{
+     padding:5% 0 5% 30%;
+     font-weight:600;
+     text-transform:capitalize;
+ }
+ #sidebar .card-footer{
+     margin:55% 0 0 0;
+ }
+ #dashboard_content{
+     padding:0 0 0 0%;
+     margin-left:2%;
+     height:100%;
+ }
+ #dashboard_content ul li a:hover{
+     background-color:green;
+ }
+ #dashboard_content1{
+     padding:0 5% 0 5%;
+ }
+ .nav-content .tab{
+     margin-left:10%;
+ }
+ #courses h4{
+     padding:2% 0 2% 5%;
+     margin-top:3%;
+     font-weight:500;
+     font-family:'Agency FB';
+      }
+ #courses #class{
+      font-family:'Square721 Cn Bt';
+     
+     width:95%;
+    
+     padding:0px;
+     margin:1% 10% 0 0;
+ }
+ #class #course_img img{
+     height:200px;
+     width:100%;
+     margin:0px;
+     padding:0px;
+    
+    
+ }
+ #class #instructors_img{
+     margin-bottom:10%;
+ }
+  #class #instructors_img img{
+     width:100px;
+     height:100px;
+     border-radius:50%;
+     margin:-20% 0 0 30%;
+   
+ }
+ #class #instructors_img h5{
+      font-weight:600;
+     margin:0 0 0 38%;
+ }
+ #class #instructors_img span h5{
+      margin:0 0 0 35%;
+       font-weight:500;
+
+ }
+ #course_info{
+     width:100%;
+     margin:15% 0 0 0%;
+     padding:5% 5% 5% 5%;
+ }
+ #course_info  .progress-bar{
+     margin:5% 0 0 10%;
+     width:60%;
+ }
+ #course_info h3{
+      font-weight:600;
+ }
+ #course_info h4{
+     margin:10% 0 0 15%;
+      font-weight:500;
+ }
+ #courses #course_detail{
+   width:100%;
+   height:400px;
+    margin:1% 10% 0 0;
+  
+ }
+ #courses #course_detail #course_desc{
+      padding:10% 0 0 10%;
+
+ }
+ #assignment h4{
+     padding:2% 0 2% 5%;
+     margin-top:3%;
+     font-weight:500;
+      font-family:'Agency FB';
+      }
+       #assignment #assign{
+      font-family:'Square721 Cn Bt';
+     
+     width:90%;
+     height:600px;
+     margin:1% 10% 0 0;
+ }
+ #assign .card-content{
+     padding:5% 10% 5% 10%;
+ }
+  #settings h4{
+     padding:2% 0 2% 5%;
+     margin-top:3%;
+     font-weight:500;
+      font-family:'Agency FB';
+      }
+       #settings #set{
+      font-family:'Square721 Cn Bt';
+     
+     width:100%;
+    
+     margin:1% 10% 0 0;
+ }
+ #settings #set form label{
+     font-weight:600;
+     color:black;
+     letter-spacing:1px;
+       font-size:0.9em;
+ }
+ #settings #set form  button{
+     margin:5% 0 5% 15%;
+     width:25%;
+     font-weight:600;
+ }
+ #change_password label{
+     font-weight:600;
+     color:black;
+      letter-spacing:1px;
+        font-size:0.9em;
+
+ }
+ #avatar .card{
+     width:80%;
+     margin:0 0 0 30%;
+   
+ }
+#change_password .card{
+    width:60%;
+    margin:5% 0 0 5%;
+}
 @media only screen and (max-width:480px){
  .nav {
     margin-right:2%;
@@ -210,7 +395,73 @@ body{
      font-size:1em;
      color:black;
  }
+
+ /*Dashboard */
+
+.banner{
+    height:auto;
 }
+.banner img{
+    display:none;
+ }
+ .banner h2{
+     margin:5% 0 5% 0;
+ }
+ #sidebar{
+     margin:0 0 8% 0;
+ }
+ #sidebar .card-footer{
+     margin:5% 0 0 0;
+ }
+  #dashboard_content{
+     padding:0 0 0 3%;
+     width:95%;
+     height:100%;
+ }
+
+ .nav-content .tab{
+     margin-left:0%;
+     width:80%;
+    
+ }
+
+ .nav-content .tabs .tab a{
+      font-size:0.85em;
+ }
+  #courses h4, #assignment h4, #settings h4{
+      margin:7% 0 4% 0;
+  }
+  #courses #course_detail{
+   width:95%;
+   height:400px;
+    margin:1% 10% 0 0;
+  
+ }
+
+
+ #avatar .card{
+     width:70%;
+     margin:0 0 0 15%;
+   
+ }
+ 
+  #settings #set form  button{
+     margin:5% 0 5% 15%;
+     width:30%;
+     font-weight:600;
+ }
+
+#change_password .card{
+    width:80%;
+    margin:5% 0 0 5%;
+}
+
+
+
+}
+
+
+
 
 @media only screen and (max-width:768px) and (min-width:481px){
 
